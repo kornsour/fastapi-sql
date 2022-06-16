@@ -21,3 +21,11 @@ RUN pip install -r requirements.txt
 
 # add app
 COPY . .
+
+# add entrypoint.sh
+COPY ./entrypoint.sh .
+RUN chmod +x /usr/src/app/entrypoint.sh
+
+# run entrypoint.sh
+# waits until postgres container is ready
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
