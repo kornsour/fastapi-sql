@@ -24,8 +24,8 @@ COPY . .
 
 # add entrypoint.sh
 COPY ./entrypoint.sh .
-RUN chmod +x /usr/src/app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
 
 # run entrypoint.sh
 # waits until postgres container is ready
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"]

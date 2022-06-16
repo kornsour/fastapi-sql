@@ -27,13 +27,20 @@ For a production environment, we can override these variables with something sim
 `export ENVIRONMENT=prod`
 `export TESTING=1`
 
-## Building the Container
+## Docker
+
+### Building the Container
 
 `docker-compose build`
 
-## Start the container
+### Starting the container
 
 `docker-compose up -d`
+
+### Check logs
+`docker-compose logs web`
+
+
 
 
 
