@@ -17,3 +17,13 @@ Learn how to use a [virtual envionrment](https://docs.python.org/3/tutorial/venv
 ### Starting the App
 
 Once your dev env is set up, run `uvicorn app.main:app`
+
+### Environment Variables
+
+By default the app has a settings class that sets the env vars `ENVIRONMENT` to `dev` and `TESTING` to `0` (False)
+
+For a production environment, we can override these variables with something similar to this:
+
+`export ENVIRONMENT=prod`
+`export TESTING=1`
+

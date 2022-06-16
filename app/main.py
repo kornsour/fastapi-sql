@@ -1,6 +1,6 @@
 '''Main application file'''
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 
 from app.config import get_settings, Settings
 
