@@ -14,7 +14,7 @@ Learn how to use a [dev container](https://code.visualstudio.com/docs/remote/con
 
 Learn how to use a [virtual envionrment](https://docs.python.org/3/tutorial/venv.html)
 
-### Starting the App
+## Starting the App
 
 Once your dev env is set up, run `uvicorn app.main:app`
 
@@ -26,4 +26,14 @@ For a production environment, we can override these variables with something sim
 
 `export ENVIRONMENT=prod`
 `export TESTING=1`
+
+## Building the Container
+
+`docker-compose build`
+
+## Start the container
+
+`docker-compose up -d`
+
+
 
