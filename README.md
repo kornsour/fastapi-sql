@@ -87,3 +87,14 @@ Tortoise:
 
 - [Overview](https://pydantic-docs.helpmanual.io/)
 - [Models](https://pydantic-docs.helpmanual.io/usage/models/)
+
+## Gunicorn
+
+- [Overview](https://gunicorn.org/)
+- [Worker class](https://www.uvicorn.org/#running-with-gunicorn)
+
+## Heroku
+
+- [Non-root user](https://devcenter.heroku.com/articles/container-registry-and-runtime#run-the-image-as-a-non-root-user)
+- [Port binding](https://devcenter.heroku.com/articles/dynos#web-dynos)
+- [CLI](https://devcenter.heroku.com/articles/heroku-cli)
