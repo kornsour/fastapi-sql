@@ -65,6 +65,9 @@ Tortoise:
 - [Tortoise.init](https://tortoise-orm.readthedocs.io/en/latest/setup.html?highlight=init#tortoise.Tortoise.init)
 - [Generate Schemas](https://tortoise-orm.readthedocs.io/en/latest/setup.html?highlight=init#tortoise.Tortoise.generate_schemas)
 - [Aerich Migrations](https://tortoise-orm.readthedocs.io/en/latest/migration.html)
+- [Values](https://tortoise-orm.readthedocs.io/en/latest/query.html?highlight=values#tortoise.queryset.QuerySet.values)
+  - [Values Query](https://tortoise-orm.readthedocs.io/en/latest/query.html?highlight=values#tortoise.queryset.ValuesQuery)
+
 
 ## Testing
 
@@ -74,6 +77,7 @@ Tortoise:
   - [All You Need to Know to Start Using Fixtures in Your pytest Code](https://pybit.es/pytest-fixtures.html)
   - [Fixture finalization / executing teardown code](https://docs.pytest.org/en/latest/explanation/fixtures.html#improvements-over-xunit-style-setup-teardown-functions)
 - [Given-When-Then framework](https://martinfowler.com/bliki/GivenWhenThen.html)
+- [HTTPie](https://httpie.io/)
 
 ## FastAPI
 
