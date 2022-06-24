@@ -43,6 +43,12 @@ For a production environment, we can override these variables with something sim
   - `\q`
 - Run pytest
   - `docker-compose exec web python -m pytest`
+- Run code coverage
+  - `docker-compose exec web python -m pytest --cov="."`
+- View code coverage as HTML
+  - `docker-compose exec web python -m pytest --cov="." --cov-report html`
+- Flake8 linting
+  - `docker-compose exec web flake8 .`
 
 ## Database
 
@@ -68,7 +74,6 @@ Tortoise:
 - [Values](https://tortoise-orm.readthedocs.io/en/latest/query.html?highlight=values#tortoise.queryset.QuerySet.values)
   - [Values Query](https://tortoise-orm.readthedocs.io/en/latest/query.html?highlight=values#tortoise.queryset.ValuesQuery)
 
-
 ## Testing
 
 - [Starlette Test Client](https://www.starlette.io/testclient/)
@@ -78,6 +83,7 @@ Tortoise:
   - [Fixture finalization / executing teardown code](https://docs.pytest.org/en/latest/explanation/fixtures.html#improvements-over-xunit-style-setup-teardown-functions)
 - [Given-When-Then framework](https://martinfowler.com/bliki/GivenWhenThen.html)
 - [HTTPie](https://httpie.io/)
+- [Coverage.py](https://coverage.readthedocs.io/en/6.4.1/)
 
 ## FastAPI
 
@@ -98,3 +104,6 @@ Tortoise:
 - [Non-root user](https://devcenter.heroku.com/articles/container-registry-and-runtime#run-the-image-as-a-non-root-user)
 - [Port binding](https://devcenter.heroku.com/articles/dynos#web-dynos)
 - [CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- [Container Registry](https://devcenter.heroku.com/articles/container-registry-and-runtime)
+- [Postgres Plan](https://devcenter.heroku.com/articles/heroku-postgres-plans#hobby-tier)
+- [Dynos](https://www.heroku.com/dynos)
